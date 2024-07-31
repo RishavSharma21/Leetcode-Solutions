@@ -1,3 +1,7 @@
-# Leetcode-Solutions
-Welcome to my repository of  LeetCode solutions! Here, I keep track of the solutions I’ve written for various LeetCode problems.
-  
+# LeetCode Solutions
+
+This repository contains my solutions to various LeetCode problems.
+
+## Contributing
+
+Feel free to submit pull requests with improvements or additional solutions.
