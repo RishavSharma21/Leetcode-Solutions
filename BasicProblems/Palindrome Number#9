@@ -1,0 +1,19 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        if(x < 0) return false;
+
+        int temp = x;
+        int rev = 0;
+        int digit;
+        while(temp > 0){
+            digit = temp % 10;   //extracted the last digit from remainder
+            rev = rev * 10 + digit;  //etracted the reversed number
+            temp = temp / 10;  //By this last digit will be removed
+        }
+        if(rev == x){
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
