@@ -12,5 +12,4 @@ Feel free to submit pull requests with improvements or additional solutions. Con
 ## Contact
 If you have any questions or suggestions, feel free to reach out.
 
-GitHub: RishavSharma21
 Email: rishavsharma21a@gmail.com
