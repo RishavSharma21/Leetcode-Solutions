@@ -13,5 +13,4 @@ Feel free to submit pull requests with improvements or additional solutions. Con
 ## Contact
 If you have any questions or suggestions, feel free to reach out.
 
-[X.com](https://x.com/RishavSharma59)
 Email: rishavsharma21a@gmail.com
