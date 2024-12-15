@@ -1,6 +1,7 @@
 # LeetCode Solutions
 
 Welcome to my LeetCode solutions repository. Here you'll find solutions to various LeetCode problems that I have solved.
+[My LeetCode Profile](https://leetcode.com/u/RishavSharma1/)
 
 ## About
 
