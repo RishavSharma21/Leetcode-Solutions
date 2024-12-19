@@ -1,0 +1,40 @@
+class Solution {
+    
+    //Method 1 Brute force approach
+
+    // public int findGCD(int[] arr) {
+    //     Arrays.sort(arr);
+    //     int smallest = arr[0];
+    //     int largest = arr[arr.length-1];
+    //     for(int i = smallest ; i > 0; i--){
+    //         if(smallest % i == 0 && largest % i == 0){
+    //             return i;
+    //         }
+    //     }
+    //    return 1;
+    // }
+
+//Method 2 (Best Optimised)
+
+    static int gcd2(int x, int y) {
+        if (y == 0) return x;       //eg 5,0 common divisior always be 5,as 0 is divisble by everyone
+        return gcd2(y, x % y);      //Euclids Algorithm
+    }
+
+    public int findGCD(int[] arr){
+
+        int smallest = arr[0];
+        int largest = arr[0];
+        for(int i = 0; i < arr.length;i++){
+            if(arr[i] < smallest){
+                smallest = arr[i];
+            }
+            if(arr[i] > largest){
+                largest = arr[i];
+            }
+        }
+
+        return gcd2(smallest,largest);
+    }
+}
+
